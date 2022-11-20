@@ -2,7 +2,7 @@
 - name: Install Clickhouse
   hosts: clickhouse
   roles:
-   - clickhouse-role
+   - clickhouse
 - name: Install Vector
   hosts: vector
   roles:
