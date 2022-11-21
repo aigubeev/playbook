@@ -8,11 +8,11 @@ clickhouse:
 vector:
   hosts:
     vector-01:
-      ansible_host: 51.250.106.83
+      ansible_host: 84.201.140.136
       ansible_user: vagrant 
 
 lighthouse:
   hosts:
     lighthouse-01:
-      ansible_host: 158.160.7.207
+      ansible_host: 84.201.155.247
       ansible_user: vagrant   

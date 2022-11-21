@@ -1,0 +1,10 @@
+server {
+    listen          80;
+    server_name     $(curl ipconfig.io);
+    access_log      /var/log/nginx/lighthouse.log main;
+
+    location / {
+        root {{ lighthouse_loc_dir }};
+        index index.html;
+    }
+}
